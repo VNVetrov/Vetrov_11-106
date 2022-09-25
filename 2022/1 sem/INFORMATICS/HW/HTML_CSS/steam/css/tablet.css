@@ -1,0 +1,65 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+::-webkit-scrollbar-corner {
+    display: none;
+}
+
+::-webkit-scrollbar-thumb {
+    display: none;
+}
+.top-header {
+    display: none;
+}
+.footer{
+    display: none;
+}
+
+
+.menu-button{
+    display: block;
+}
+
+.inside-main-part {
+    padding: 0px;
+}
+.mobile-top-header {
+    display: block;
+    background: #171a21;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 20;
+    box-shadow: 0 0 7px 0 rgb(0 0 0 / 75%);
+    overflow: hidden;
+    padding: 13px 8px;
+}
+.menu-logo {
+    position: fixed;
+    top: 9px;
+    left: 9px;
+    cursor: pointer;
+    width: 36px;
+    height: 31px;
+    z-index: 30;
+}
+.steam-logo a {
+    display: inline-block;
+}
+.steam-logo {
+    width: 100%;
+    height: 36px;
+}
+.footer-space{
+    height: 120px;
+}
+.main-menu {
+    display: block;
+    overflow: visible;
+}
+.main-menu-flex {
+    display: flex;
+}

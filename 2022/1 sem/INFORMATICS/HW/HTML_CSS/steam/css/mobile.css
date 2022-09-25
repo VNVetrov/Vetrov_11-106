@@ -1,0 +1,42 @@
+.inside-main-part {
+    background: radial-gradient(rgba(24, 26, 33, 0) 0%, #181A21 100%) fixed no-repeat, url(https://store.akamai.steamstatic.com/public/shared/images/joinsteam/new_login_bg_strong_mask_mobile.jpg) center top no-repeat, #181A21;
+}
+
+.login-bar {
+    padding-top: 12px;
+    padding-bottom: 0px;
+}
+
+.login-header {
+    text-align: center;
+}
+
+.login-input {
+    background: none;
+    border: none;
+
+    flex-direction: column;
+    align-items: center;
+    min-width: 0;
+}
+.skolko-mojno-eshe-divov-ya-ustal{
+    flex-direction: column;
+    align-items: center;
+}
+.right-side-login {
+    text-align: center;
+    margin-top: 48px;
+    margin-left: 0;
+    width: 200px;
+    align-items: center;
+}
+.inside-rightside{
+    align-items: center;
+}
+.qr-svg {
+    display: none;
+}
+
+.under-login-div {
+    flex-direction: column-reverse;
+}

@@ -1,0 +1,538 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    color: #E9E9E9;
+    background-color: #181A21;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+    min-height: 100%;
+    position: relative;
+    display: block;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+a:hover{
+    text-decoration: none;
+    color: #66c0f4;
+}
+.whole-page{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    height: 100%
+}
+.top-header{
+    background: #171a21;
+    min-width: 940px;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding: 0;
+    margin: 0;
+}
+.inside-top-header{
+    position: relative;
+    width: 940px;
+    height: 104px;
+    margin: 0px auto;
+}
+
+.header-logo{
+    float: left;
+    padding-top: 30px;
+    margin-right: 40px;
+    width: 176px;
+    height: 44px;
+}
+.logo-holder{
+    padding: 0;
+    margin: 0;
+}
+.header-links{
+    display: block;
+    position: relative;
+    padding-top: 45px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 7px;
+    line-height: 16px;
+    float: left;
+    font-size: 14px;
+    color: #b8b6b4;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.header-links:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+.top-links{
+    position: absolute;
+    left: 200px;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+}
+.download-bar{
+    position: absolute;
+    right: 0px;
+    top: 6px;
+    height: 21px;
+    line-height: 21px;
+    color: #b8b6b4;
+    font-size: 11px;
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+.download{
+    line-height: 24px;
+    vertical-align: top;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.installation:hover{
+    color:aliceblue;
+}
+.installation{
+    background-color: #5c7e10;
+    display: inline-block;
+    padding-left: 35px;
+    padding-right: 9px;
+    background-position: 10px 5px;
+    background-image: url("../imgs/btn_header_installsteam_download.png");
+    background-repeat: no-repeat;
+    text-decoration: none;
+    color: #e5e4dc;
+    font-weight: normal;
+}
+.login-link{
+    color: #b8b6b4;
+    padding: 0 4px 0 10px;
+    vertical-align: top;
+    text-decoration: none;
+
+}
+.login-link:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
+.language{
+    display: inline-block;
+    padding-left: 4px;
+    line-height: 25px;
+    margin-right: 5px;
+    vertical-align: top;
+    padding-right: 18px;
+    background-image: url("../imgs/btn_arrow_down_padded.png");
+       background-position: right center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.language:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
+.main-page-part{
+    padding: 0;
+    margin: 0;
+    display: block;
+    color: #E9E9E9;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+}
+.inside-main-part{
+    background: radial-gradient(rgba(24, 26, 33, 0) 0%, #181A21 100%) fixed no-repeat, url("../imgs/new_login_bg_strong_mask.jpg") center top no-repeat, #181A21;
+    padding: 0px 8px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+.login-div{
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+.login-bar{
+   padding-top: 80px;
+    padding-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login-box{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+.login-divider{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+.login-header{
+    display: flex;
+    flex-direction: column;
+    margin: 8px 16px;
+    padding: 0px 0px 32px 0px;
+}
+.header-text{
+    color: #fff;
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: .055em;
+    font-weight: 200;
+}
+.login-input{
+    background-color: #181a21;
+    border-radius: 4px;
+    padding: 24px 32px;
+    flex: 1;
+    min-width: 636px;
+    margin: 0;
+    display: block;
+}
+.skolko-mojno-eshe-divov-ya-ustal{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    padding: 0;
+    margin: 0;
+}
+.form-css{
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.top-input{
+    display: grid;
+    grid-template-areas:
+        "label hint"
+        "input input";
+    grid-template-columns: 1fr;
+    padding: 12px 0 0 0 ;
+}
+.upper-text{
+    color: #1999ff;
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: .02em;
+    user-select: none;
+    padding: 0 0 2px 0;
+}
+.login-input-string{
+    border-radius: 2px;
+    color: #fff;
+    padding: 10px;
+    background-color: #32353c;
+    outline: none;
+    font-size: 15px;
+    grid-area: input;
+    border: 1px solid #32353c;
+}
+.login-input-string:hover{
+    background-color: #393c44;
+}
+.password{
+    font-size: 12px;
+    color: #afafaf;
+    text-transform: uppercase;
+    letter-spacing: .02em;
+    user-select: none;
+    padding: 0 0 2px 0;
+}
+.remember-me-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    margin: 12px 0 0 0
+}
+.chechbox-bar{
+    width: 20px;
+    height: 20px;
+    padding: 3px;
+    border-radius: 2px;
+    background-color: #32353c;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+.chechbox-bar:hover{
+   background-color: #393c44;
+}
+.inside-chechbox{
+    margin: 3px 3px;
+    width: 14px;
+    height: 14px;
+    align-items: center;
+    display: flex;
+}
+.svg-class{
+    fill: #fff;
+    overflow: visible;
+    width: 100%;
+    height: 100%;
+    max-width: 320px;
+    max-height: 320px;
+}
+.remember-me-string{
+    color: #afafaf;
+    font-size: 12px;
+    user-select: none;
+    padding-left: 6px;
+}
+.enter-button-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px 0 0 0;
+}
+.enter-button{
+    width: 270px;
+    position: relative;
+    background: linear-gradient(90deg, #06BFFF 0%, #2D73FF 100%);
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    padding: 12px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: inherit;
+    text-align: center;
+    letter-spacing: .03em;
+    cursor: pointer;
+}
+.enter-button:hover{
+    background: linear-gradient(90deg, #06BFFF 30%, #2D73FF 100%);
+}
+.error-form{
+    color: #c15755;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    padding: 12px 0 0 0;
+}
+.sorry-help{
+    text-align: center;
+    color: #afafaf;
+    font-size: 12px;
+    text-decoration: underline;
+    cursor: pointer;
+    padding: 12px 0 0 0;
+}
+.sorry-help:hover{
+    color: #c9c9c9;
+}
+.right-side-login{
+    flex: 0;
+    display: grid;
+    margin-left: 24px;
+}
+.inside-rightside{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 200px;
+}
+.new-func-text{
+    color: #1999ff;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    margin: 6px 0px;
+    text-transform: uppercase;
+    letter-spacing: .02em;
+}
+.qr-zone{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 0px;
+}
+.qr-svg{
+    width: 120px;
+
+}
+.qr-text{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #afafaf;
+    margin: 8px;
+}
+.more-info-link:hover{
+    color:#fff;
+}
+.more-info-link{
+    background-color: rgba(255,255,255,.1);
+    border-radius: 2px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    padding: 8px 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.in-betta{
+    text-align: center;
+    text-decoration-line: underline;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #afafaf;
+    padding: 12px 0px;
+    cursor: pointer;
+}
+.under-login-div{
+    display: flex;
+    flex-direction: row;
+    padding-top: 48px;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    justify-content: center;
+    background-color: #181A21;
+}
+.join-steam{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 200px;
+}
+.subtext{
+    font-size: 14px;
+    color: #b8b6b4;
+}
+.login-join{
+    max-width: 60%;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.join-pc-img{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 200px;
+}
+.login-bottom{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 200px;
+    margin-top: 20px;
+}
+.button-span{
+    padding: 0 15px;
+    font-size: 15px;
+    line-height: 30px;
+    display: block;
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.4);
+    border-radius: 2px;
+}
+.button-span:hover{
+    border: 1px solid #fff;
+}
+.join-button{
+    margin: 20px 0 10px 0;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none !important;
+    color: #fff !important;
+    background: transparent;
+}
+.footer-space{
+    background-color: #181A21;
+    height: 290px;
+}
+.footer{
+    display: block;
+    background-color: #181A21;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 16px 0 60px 0;
+    margin: 0;
+    background: #171a21;
+}
+.footer-content{
+    width: 940px;
+    margin: 0px auto;
+    padding-top: 16px;
+}
+.rule{
+    height: 8px;
+    border-top: 1px solid #363c44;
+}
+.footer-logo-steam{
+    float: right;
+    padding-top: 2px;
+}
+.footer-logo{
+    float: left;
+    padding-top: 2px;
+}
+.valve-logo{
+    height: 25px;
+    width: auto;
+}
+.footer-text{
+    float: left;
+    margin-left: 12px;
+    color: #8F98A0;
+    font-size: 12px;
+    line-height: 16px;
+}
+.footer-text>div>a{
+    color: #C6D4DF;
+}
+.footer-text>div>a:hover{
+    color: #ffffff;
+}
+
+.valve-links{
+    margin-top: 8px;
+    float: left;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+    font-size: 13px;
+    color: #61686D;
+}
+.valve-links>a{
+    color: #C6D4DF;
+}
+.valve-links>a:hover{
+    color: #ffffff;
+}
+.valve-links>a>img{
+    vertical-align: bottom;
+}
